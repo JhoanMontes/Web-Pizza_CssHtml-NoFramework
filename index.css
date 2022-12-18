@@ -229,21 +229,21 @@ header a:hover {
     url("FotosPr/1202CocinaItalianaPizzaMargarita.jpg");
 }
 
-#comprar h2 {
+.comprar h2 {
   text-align: center;
   justify-content: center;
   background-color: rgb(165, 42, 42);
 }
-#comprar {
+.comprar {
   background-color: rgb(165, 42, 42);
   color: azure;
   font-size: 10px;
 }
-#comprar .enlace {
+.comprar .enlace {
   display: flex;
   justify-content: center;
 }
-#comprar a {
+.comprar a {
   font-family: "Times New Roman", Times, serif;
   border-radius: 10px;
   margin: 10px 30px;
@@ -260,7 +260,7 @@ header a:hover {
   justify-content: center;
 }
 
-#comprar a:hover {
+.comprar a:hover {
   background-color: rgb(183, 136, 36);
 }
 
