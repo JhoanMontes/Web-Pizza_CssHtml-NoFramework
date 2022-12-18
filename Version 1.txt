@@ -1,0 +1,1 @@
+usar id aumenta la especificidad te recomiendo usar clases.

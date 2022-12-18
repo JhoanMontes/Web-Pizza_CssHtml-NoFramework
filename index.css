@@ -1,0 +1,404 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+}
+h1 {
+  font-size: 3.3em;
+}
+h2 {
+  font-size: 3.2em;
+}
+h3 {
+  font-size: 2em;
+}
+p {
+  font-size: 1.5;
+}
+ul {
+  list-style: none;
+}
+button {
+  font-size: 2em;
+  font-weight: bold;
+  padding: 10px 50px;
+  border-radius: 8px;
+  border-color: rgb(165, 42, 42);
+  border: 2px;
+  box-shadow: 2px 1.5px 8px;
+  color: beige;
+  background-color: rgb(255, 165, 0);
+}
+
+li {
+  font-size: 1.19em;
+}
+button:hover {
+  background-color: rgb(165, 42, 42);
+}
+.container {
+  max-width: 1370px;
+  margin: auto;
+}
+.color-a {
+  color: rgb(220, 20, 60);
+}
+header {
+  background-color: rgb(238, 170, 45);
+}
+header .logo {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 2px solid rgb(189, 26, 26);
+  padding: 24px 29px;
+  color: rgb(255, 255, 255);
+  font-size: 4em;
+  text-decoration: underline;
+  text-decoration-color: rgb(224, 124, 8);
+  margin-inline: 3rem;
+  text-decoration-style: solid;
+}
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 28px;
+}
+header a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(243, 101, 19);
+  border-radius: 5em;
+  border-color: rgb(170, 42, 42);
+}
+header a:hover {
+  color: rgb(139, 0, 0);
+}
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("FotosPr/receta.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#hero h1 {
+  color: rgba(255, 255, 255, 0.971);
+  font-size: 2em;
+}
+#hero p {
+  color: rgb(240, 248, 255);
+  font-size: 2.1em;
+}
+#hero button {
+  padding: 20px 30px;
+  margin: 5px 0px;
+  font-size: 2em;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#somos .container {
+  text-align: center;
+  padding: 200px 14px;
+}
+
+.logo {
+  background-position: center;
+  background-size: 200px 1000px;
+}
+#ayuda {
+  color: rgb(255, 255, 255);
+
+  text-align: center;
+}
+#ayuda .container {
+  padding: 80px 0px;
+}
+#ayuda p {
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+  margin: 15px;
+}
+#ayuda h3 {
+  color: rgb(255, 255, 255);
+  margin: 1rem;
+  font-size: 2em;
+  margin: 10px;
+}
+/*#ayuda button{
+    padding: 20px 30px;
+    margin: 5px 0px;
+    font-size: 1.0em;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(234, 158, 18);
+}
+#ayuda button:hover{
+    background-color: brown;
+}*/
+#ayuda h2 {
+  font-size: 2em;
+  margin: 0;
+}
+#ayuda h3 {
+  font-size: 1.2em;
+}
+
+#ayuda {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("FotosPr/chefs.jpg");
+  padding: 100px;
+  background-repeat: repeat;
+}
+.color-ac {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+#tipospizza {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.964);
+}
+#tipospizza .container {
+  padding: 180px 15px;
+}
+#tipospizza .carta {
+  background-position: center center;
+  background-size: cover;
+  padding: 45px;
+  margin: 10px;
+  border-radius: 12px;
+  flex-direction: column;
+}
+#tipospizza .carta:nth-child(1) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("FotosPr/italiap.jpg");
+}
+#tipospizza .carta:nth-child(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("FotosPr/queso.jpg");
+}
+#tipospizza .carta:nth-child(3) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("FotosPr/piña.jpg");
+}
+#tipospizza .carta:nth-child(4) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("FotosPr/1202CocinaItalianaPizzaMargarita.jpg");
+}
+
+#comprar h2 {
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(165, 42, 42);
+}
+#comprar {
+  background-color: rgb(165, 42, 42);
+  color: azure;
+  font-size: 10px;
+}
+#comprar .enlace {
+  display: flex;
+  justify-content: center;
+}
+#comprar a {
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10px;
+  margin: 10px 30px;
+  width: 340px;
+  text-align: center;
+  background-color: rgb(238, 170, 45);
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  text-shadow: 60px;
+  padding: 25px 80px;
+  text-decoration: none;
+  border-color: rgb(165, 42, 42);
+  border-radius: 2em;
+  justify-content: center;
+}
+
+#comprar a:hover {
+  background-color: rgb(183, 136, 36);
+}
+
+.con {
+  text-align: right;
+  color: rgb(110, 106, 99);
+}
+
+#somos .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+#somos .img-con {
+  background-image: url("FotosPr/bandera.jpg");
+
+  height: 0px;
+  width: 0px;
+}
+
+@media (min-width: 720px) {
+  header {
+    position: fixed;
+    width: 100%;
+  }
+
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 25px;
+  }
+
+  #somos .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #somos .img-con {
+    background-image: url("/FotosPr/bandera.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+  }
+  #somos .text {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #tipospizza {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.962);
+  }
+  #tipospizza .container {
+    padding: 180px 15px;
+  }
+  #tipospizza .carta {
+    background-position: center center;
+    background-size: cover;
+    padding: 45px;
+    margin: 10px;
+    border-radius: 12px;
+  }
+  #tipospizza .carta:nth-child(1) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("FotosPr/italiap.jpg");
+  }
+  #tipospizza .carta:nth-child(2) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("FotosPr/queso.jpg");
+  }
+  #tipospizza .carta:nth-child(3) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("FotosPr/piña.jpg");
+  }
+  #tipospizza .carta:nth-child(4) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("FotosPr/1202CocinaItalianaPizzaMargarita.jpg");
+  }
+  #tipospizza p {
+    display: none;
+  }
+  #tipospizza h2 {
+    font-size: 60px;
+    margin-top: 0;
+    color: rgb(0, 0, 0);
+  }
+  #tipospizza h3 {
+    font-size: 2.1em;
+    margin-top: 0;
+  }
+  #tipospizza li {
+    font-size: 2.5vw;
+    margin: 50px;
+    font-weight: bold;
+  }
+  #tipospizza h4 {
+    text-align: center;
+    color: rgb(165, 42, 42);
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: underline;
+    text-decoration-color: rgb(165, 42, 42);
+    font-size: 40px;
+  }
+  #tipospizza .pizzas {
+    display: flex;
+    justify-content: center;
+  }
+  #tipospizza p {
+    display: block;
+    margin-bottom: 20px;
+  }
+  #tipospizza .carta {
+    padding: 30px;
+
+    background-repeat: no-repeat;
+  }
+}
